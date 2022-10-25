@@ -7,8 +7,15 @@ body {
     justify-content: space-between;
 }
 .capabilities{
-    padding-top: 25px;
+    padding-top: 55px;
     padding-bottom: 45px;
+}
+.capabilities h1 {
+    font-weight: bolder;
+    padding-bottom: 25px;
+}
+.capabilities p {
+    font-weight: bold;
 }
 #about-content{
     background-image: url('../Images/artboard2 ABOUT 20percent Opacity.jpg');
