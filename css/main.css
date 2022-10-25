@@ -150,8 +150,11 @@ body {
 
 }
 .titlecard-img img{
-    max-height:80%; 
-    max-width:80%;
+    max-width:100%;
+    max-height:80%;
+    height:auto;
+    width: auto;
+
 
 }
 @media only screen and (max-width: 768px) {
@@ -199,8 +202,8 @@ body {
     justify-content: center;
 }
 .redesigned-img img {
-    width: 40vw;
-    max-height: 30vh;
+    width: 60vw;
+
     margin-top: 20px;
     margin-bottom: 20px;
 }
