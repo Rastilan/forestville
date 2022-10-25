@@ -6,6 +6,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.capabilities{
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
 #about-content{
     background-image: url('../Images/artboard2 ABOUT 20percent Opacity.jpg');
     background-color: white;
