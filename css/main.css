@@ -32,6 +32,8 @@ body {
 .four-brew-logo {
     padding-bottom: 24px;
     width:50% !important;
+    display:flex;
+    align-self: center;
 }
 @media only screen and (max-width: 870px) {
     .four-brew-logo {
@@ -88,12 +90,13 @@ body {
         }
 }
 #brew-large-og {
-width: 60% !important;
+width: 50% !important;
 align-self: center;
+
 }
 @media only screen and (max-width: 870px) {
     #brew-large-og {
-        width: 95vw !important;
+        width: 80vw !important;
         }
 }
 
