@@ -31,9 +31,28 @@ body {
 }
 .four-brew-logo {
     padding-bottom: 24px;
+    width:50% !important;
+}
+@media only screen and (max-width: 870px) {
+    .four-brew-logo {
+        width: 100% !important;
+       }
+}
+.four-chuy-logo {
+    width:50% !important;
+}
+@media only screen and (max-width: 870px) {
+    .four-chuy-logo {
+        width: 100% !important;
+       }
 }
 .about-row{
     padding-top: 10em;
+}
+@media only screen and (max-width: 870px) {
+    #oracle-img {
+        width: 93vw !important;
+       }
 }
 .about-quote{
     font-weight:800;
@@ -52,7 +71,7 @@ body {
     border-radius: 50%;
 }
 #oracle-img {
- width: 45vw !important;
+ width: 50vw !important;
 }
 @media only screen and (max-width: 870px) {
     #oracle-img {
