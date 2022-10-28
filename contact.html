@@ -40,11 +40,11 @@
 <div class="container-fluid contact-content">
     <h1 class="contact-statement">YOUR NEW FANS ARE LOOKING FOR YOU RIGHT NOW. DON'T WAIT!</h1>
     <h3 class="contact-question">Ready to take the next step? Send us a message and we can start working for you.</h3>
-    <form class="contact-form">
+    <form class="contact-form" action="mailto:forestvilledesigns@gmail.com" method="post" enctype="text/plain">
         <label class="contact-name">Full Name<font color="red">*</font></label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required>
         <label class="contact-email">Email<font color="red">*</font></label>
-            <input type="text" name="email" id="email">
+            <input type="email" name="email" id="email" required>
         <label class="contact-companyname">Company Name</label>
             <input type="text" name="companyname" id="companyname">
         <label class="yourwebsiteurl">Your Website URL</label>
@@ -53,6 +53,9 @@
             <input type="text" name="number" id="number">
         <label class="how-can-we-help-you">How Can We Help You?</label>
             <input type="text" name="howcanwehelpyou" id="how-can-we-help-you">
+        <label></label>
+            <input type="submit" value="submit" class="submit-button">
+
     </form>
 </div>
 </body>

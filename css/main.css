@@ -104,12 +104,17 @@ body {
         width:90%;  
     }
 }
+.submit-button{
+    border: 2px solid black !important;
+    background-color: rgb(255, 0, 0) !important;
+    color: white !important;
+}
 .contact-form input {
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 2px solid black;
-    background-color: rgba(0, 0, 255, 0) !important;
+    background-color: rgba(0, 0, 255, 0);
 }
 .contact-form input:focus,
 .contact-form select:focus,
@@ -117,6 +122,8 @@ body {
 .contact-form button:focus {
     outline: none;
 }
+
+
 .red{
     color: red;
 }
@@ -175,20 +182,7 @@ body {
 
     }
 }
-#img2{
-    display: none;
- }
- 
- @media only screen and (max-width: 500px){ 
-    #img1{
-      display: none;
-    }
- 
-    #img2{
-      display: block;
-      width:100%;
-    }
- }
+
 .titlecard-center {
     display:flex;
     flex-direction: column;
@@ -241,4 +235,14 @@ body {
   
   #myBtn:hover {
     background-color: #555;
+  }
+  .contact{
+    width:100%;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+  }
+  .contact a {
+    color:white;
   }
